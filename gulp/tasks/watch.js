@@ -13,7 +13,7 @@ const {
 function watchFiles(done) {
 
   // Init BrowserSync
-  bs.init(config.browsersync.src, config.browsersync.opts);
+  /* bs.init(config.browsersync.src, config.browsersync.opts); */
 
   // Console info
   function consoleInfo(path) {
