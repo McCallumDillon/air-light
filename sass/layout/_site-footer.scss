@@ -12,15 +12,22 @@
   color: var(--color-paragraph);
   overflow: hidden;
   padding: 3.75rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.5;
+  margin: 0 auto;
   text-align: center;
 
+  /*
   .wordpress-logo {
     display: block;
     margin-bottom: 1.25rem;
     margin-left: auto;
     margin-right: auto;
   }
-
+  */
+  
   span {
     display: block;
     text-align: center;
@@ -31,6 +38,7 @@
     position: relative;
   }
 
+  /*
   .powered-by-wordpress {
     display: inline-block;
     font-weight: var(--typography-weight-semibold);
@@ -45,6 +53,7 @@
     padding-bottom: 4px;
     position: relative;
   }
+    */
 
   .theme-info {
     align-items: center;
@@ -54,6 +63,7 @@
     justify-content: center;
     line-height: 1.5;
     margin: 0 auto;
+    min-height: 36px;
     text-align: center;
 
     i {
