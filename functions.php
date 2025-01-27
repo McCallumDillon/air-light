@@ -78,6 +78,7 @@ add_action( 'after_setup_theme', function() {
      */
     'menu_locations' => [
       'primary' => __( 'Primary Menu', 'air-light' ),
+      'footer' => __( 'Footer Menu', 'air-light' ),
     ],
 
     /**
@@ -140,8 +141,8 @@ add_action( 'after_setup_theme', function() {
     // or any specific block or a combination of these
     // Accepts both string (all*/none-options only) and array (options + specific blocks)
     'allowed_blocks' => [
-      'post' => 'all-core-blocks',
-      'page' => [],
+      'post' => 'all',
+      'page' => 'all',
       // 'page' => [
       //   'all-acf-blocks',
       //   'core/paragraph',
