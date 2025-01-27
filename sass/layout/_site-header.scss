@@ -16,6 +16,7 @@
   padding-top: var(--spacing-site-header-padding-block);
   position: relative;
   z-index: 15;
+  align-items: center;
 }
 
 .site-title {
@@ -36,6 +37,7 @@
 }
 
 // Delete this too:
+/*
 .site-main::after {
   align-items: center;
   background-position: 0 0, 100% 0;
@@ -114,3 +116,5 @@
   display: none;
 }
 // --clip--
+
+  */
